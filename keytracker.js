@@ -3,6 +3,7 @@ var axios = require('axios');
 readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
 var robot = require('robotjs');
+robot.setMouseDelay(100);
 
 var commandBuffer = [];
 var pointer = 0;
@@ -21,6 +22,9 @@ process.stdin.on('keypress', (str, key) => {
   }
   else if(key.name === "backspace"){
     commandBuffer.pop();
+  }
+  else if(key.ctrl && key.name==="c"){
+    process.exit();
   }
   else{
     commandBuffer.push(key.name);
@@ -73,6 +77,9 @@ setInterval(async () => {
     localHand.sort((a, b) => {
       return a.TopLeftX - b.TopLeftX;
     });
+    localActive.sort((a, b) => {
+      return a.TopLeftX - b.TopLeftX;
+    });
   }).catch((e) => console.log(e.code));
   if(commandBuffer[0]){
     var screenWidth = robot.getScreenSize().width;
@@ -82,29 +89,83 @@ setInterval(async () => {
         pointer = 1;
         if(commandBuffer[pointer] > 0 && commandBuffer[pointer] <= localHand.length){
           var card = localHand[commandBuffer[pointer] - 1];
-          var cardX = card.TopLeftX;
+          var cardX = card.TopLeftX + 40;
           var cardY = screenHeight - (card.TopLeftY);
           console.log(cardX, cardY)
           robot.mouseClick();
           robot.moveMouse(cardX, cardY);
+          robot.mouseToggle("down");
           setTimeout(() => {
-            robot.mouseToggle("down");
             robot.moveMouse(screenWidth/2, screenHeight/2);
             robot.mouseToggle("up");
           }, 200);
         }
+        //TODO: sort else statement
         commandBuffer.shift();
         commandBuffer.shift();
-        console.log("Command = play");
+        pointer = 0;
         break;
       case('a'):
-      console.log("Command = attack");
+        pointer = 1;
+        if(commandBuffer[pointer] > 0 && commandBuffer[pointer] <= localActive.length){
+          var card = localActive[commandBuffer[pointer] - 1];
+          var cardX = card.TopLeftX + card.Width/2;
+          var cardY = screenHeight - (card.TopLeftY - (card.Height/2));
+          var boardX, boardY;
+          var boardPos = commandBuffer[pointer];
+          if(!localBoard.length){
+            boardX = screenWidth/2;
+            boardY = screenHeight - screenHeight/3;
+          }
+          else{
+            boardX = localBoard[localBoard.length - 1].TopLeftX + localBoard[localBoard.length - 1].Width + 40;
+            boardY = screenHeight - (localBoard[0].TopLeftY - (localBoard[0].Height/2));
+          }
+          robot.mouseClick();
+          robot.moveMouse(cardX, cardY);
+          robot.mouseToggle("down");
+          setTimeout(() => {
+            robot.moveMouse(boardX, boardY);
+            robot.mouseToggle("up");
+          }, 200);
+          commandBuffer.shift();
+          commandBuffer.shift();
+          pointer = 0;
+        }
+        else if(commandBuffer[pointer] == 'a'){
+          var startX = localActive[0].TopLeftX;
+          var endX = localActive[localActive.length - 1].TopLeftX + localActive[localActive.length -1].Width;
+          var startY = screenHeight - localActive[0].TopLeftY;
+          var endY = screenHeight - localActive[localActive.length - 1].TopLeftY;
+          robot.mouseClick();
+          robot.moveMouse(startX, startY);
+          robot.mouseToggle("down");
+          setTimeout(() => {
+            robot.moveMouseSmooth(endX, endY);
+            robot.moveMouse(screenWidth/2, screenHeight - (screenHeight/3));
+            robot.mouseToggle("up");
+          },200);
+          commandBuffer.shift();
+          commandBuffer.shift();
+          pointer = 0;
+        }
       break;
       case('m'):
       console.log("Command = mulligan");
+      case('s'):
+        pointer = 1;
+        if(commandBuffer[pointer] == 's'){
+          robot.mouseClick();
+          robot.moveMouse(5*screenWidth/6, screenHeight/2);
+          robot.mouseClick();
+          commandBuffer.shift();
+          commandBuffer.shift();
+          pointer = 0;
+        }
+        break;
       default:
       console.log("Command not recognised");
       commandBuffer.shift();
     }
   }
-}, 3000)
+}, 1000)
