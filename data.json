@@ -1,0 +1,1283 @@
+{
+  "01IO012": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO028": {
+    "choices": 2
+  },
+  "01IO012": {
+    "choices": 2,
+    "targets":[
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR039T1": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ013": {
+    "targets": [
+      {
+        "opponent":[
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX004": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ052": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR050": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO001": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ005": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ040T3": {
+    "targets": [
+      {
+        "local":[
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01DE040": {
+    "targets": [
+      {
+        "local":[
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01SI044": {
+    "targets": [
+      {
+        "local":[
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01Io049": {
+    "targets": [
+      {
+        "spell": 1
+      }
+    ]
+  },
+  "01DE042T1": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI011": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO009T3": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE037": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR005": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE013": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR009T2": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX027": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI022": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI054": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE003": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI028": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01SI028": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE032": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FRR038T1": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR057": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01NX056": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO02": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI040": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO011": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX052": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO015T2": {
+    "targets": [
+      {
+        "opponent": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI006": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01NX005": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01FR006": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO022": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI049": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX013": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR036": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR055": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR038T3": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR030": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX046": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01IO044": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR004": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI045": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR046": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO039": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI032": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01SI058": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01SI034": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE042T3": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX043": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO004": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ036T2": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE050": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI047": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX022": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI027": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01SI001": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR001": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE018": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE044": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01FR011": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01NX049": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01IO023": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01IO055": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01IO012": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01PZ039": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01PZ001": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      },
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01IO046": {
+    "targets": [
+      {
+        "opponent": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE007": {
+    "targets": [
+      {
+        "local": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE012T2": {
+    "targets": [
+      {
+        "local": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ038": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01IO016": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01SI030T2": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01SI030T1": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI030": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01PZ030": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01PZ045": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01NX020T1": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01DE055": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE045T2": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO037": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01OZ026": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX019": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO024": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01IO026": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01PZ046": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01DE048": {
+    "targets": [
+      {
+        "local": [
+          "hand"
+        ]
+      }
+    ]
+  },
+  "01IO003": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX020T2": {
+    "targets": [
+      {
+        "local": [
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX011": {
+    "targets": [
+      {
+        "local": [
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ050": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE026": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX006T3": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO010": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO032T2": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR010": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01DE041": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01FR042": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO056": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      },
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01FR042T1": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ031": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01SI057": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ]
+      },
+      {
+        "local": [
+          "active"
+        ]
+      }
+    ]
+  },
+  "01NX025": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX047": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01NX047": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ004": {
+    "targets": [
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      },
+      {
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01PZ004": {
+    "targets": [
+      {
+        "opponent": [
+          "active"
+        ]
+      },
+      {
+        "opponent": [
+          "active"
+        ]
+      },
+      {
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
+}
