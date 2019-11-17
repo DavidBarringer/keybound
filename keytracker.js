@@ -47,6 +47,9 @@ setInterval(async () => {
     var width = res.data.Screen.ScreenWidth;
     var height = res.data.Screen.ScreenHeight;
     cards = res.data.Rectangles;
+    cards.sort((a, b) => {
+      return a.TopLeftX - b.TopLeftX;
+    });
     for(x in cards){
       var card = cards[x];
       if(card.CardCode == "face"){
@@ -74,12 +77,6 @@ setInterval(async () => {
         oppBoard.push(card);
       }
     }
-    localHand.sort((a, b) => {
-      return a.TopLeftX - b.TopLeftX;
-    });
-    localActive.sort((a, b) => {
-      return a.TopLeftX - b.TopLeftX;
-    });
   }).catch((e) => console.log(e.code));
   if(commandBuffer[0]){
     var screenWidth = robot.getScreenSize().width;
@@ -107,7 +104,7 @@ setInterval(async () => {
         break;
       case('a'):
         pointer = 1;
-        if(commandBuffer[pointer] > 0 && commandBuffer[pointer] <= localActive.length){
+        if(commandBuffer[1] > 0 && commandBuffer[1] <= localActive.length){
           var card = localActive[commandBuffer[pointer] - 1];
           var cardX = card.TopLeftX + card.Width/2;
           var cardY = screenHeight - (card.TopLeftY - (card.Height/2));
@@ -132,7 +129,7 @@ setInterval(async () => {
           commandBuffer.shift();
           pointer = 0;
         }
-        else if(commandBuffer[pointer] == 'a'){
+        else if(commandBuffer[1] == 'a'){
           var startX = localActive[0].TopLeftX;
           var endX = localActive[localActive.length - 1].TopLeftX + localActive[localActive.length -1].Width;
           var startY = screenHeight - localActive[0].TopLeftY;
@@ -144,17 +141,43 @@ setInterval(async () => {
             robot.moveMouseSmooth(endX, endY);
             robot.moveMouse(screenWidth/2, screenHeight - (screenHeight/3));
             robot.mouseToggle("up");
-          },200);
+          }, 200);
           commandBuffer.shift();
           commandBuffer.shift();
           pointer = 0;
         }
       break;
+      case('c'):
+        pointer = 1;
+        if(commandBuffer[1] > 0 && commandBuffer[1] <= oppActive.length){
+          var oppCard = oppActive[commandBuffer[1] - 1];
+          var oppX = oppCard.TopLeftX;
+          var oppY = screenHeight - oppCard.TopLeftY;
+          pointer = 2
+          if(commandBuffer[2] > 0  && commandBuffer[2] <= localBoard.length){
+            var card = localBoard[commandBuffer[2] - 1];
+            var cardX = card.TopLeftX + (card.Width/2);
+            var cardY = card.TopLeftY;
+            robot.mouseClick();
+            robot.moveMouse(oppX, oppY);
+            robot.mouseToggle("down");
+            setTimeout(() => {
+              robot.moveMouse(cardX, cardY);
+              robot.mouseToggle("up");
+            }, 200);
+            commandBuffer.shift();
+            commandBuffer.shift();
+            commandBuffer.shift();
+            pointer = 0;
+          }
+        }
+        break;
       case('m'):
       console.log("Command = mulligan");
+      break;
       case('s'):
         pointer = 1;
-        if(commandBuffer[pointer] == 's'){
+        if(commandBuffer[1] == 's'){
           robot.mouseClick();
           robot.moveMouse(5*screenWidth/6, screenHeight/2);
           robot.mouseClick();
