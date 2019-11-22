@@ -33,28 +33,28 @@ Cards in each location are numberer 1-0 from left-to-right.
 The commands, with their keybindings and descriptions, are listed below:
 
 * **play** ('p'): plays a card from hand. If a card targets other cards when played, these targets are given as arguments. The app will remove invalid target locations, so you only need to consider the possible targets (e.g. Ki Burst targets a card in your hand, so you don't need to include 'l'/'o' or 'h', just a number. Mystic Shot targets anything, so you need to specify 'l'/'o', 'b'/'a'/'f', and a number - if not targeting face.) A card being played will not count as a card in hand when targeting.
-[Example](https://imgur.com/Vsnpq1q.gif)
+[Play](https://imgur.com/Vsnpq1q)
 
 * **attack** ('a'): move a card from your active to board to attack. You can add one card at a time with a number, or press 'a' again to attack with everything.
-[Example](https://imgur.com/9Zrdp9j.gif)
+[Attack](https://imgur.com/9Zrdp9j.gif)
 ![all_attack](https://imgur.com/8UHnBck.gif)
 
 * **challenge** ('c'): move a card from your opponent's active to block one of your minions on board. The first argument is the number for your opponent's card, the second is the number for your card.
 ![challenge](https://imgur.com/I8LO841.gif)
 
 * **block** ('b'): move a card from your active to block one of your opponent's minions on board. The first argument is the number for your card, the second is the number of your opponent's card.
-[Block](https://imgur.com/iYHUhPa.gif)
+[Block](https://imgur.com/iYHUhPa)
 
 * **end phase** ('ss'): presses the big round button that ends your actions for the current phase.
 
 * **mulligan** ('m'): marks/unmarks a card to be replaced at the start of the game, argument is the number of the card to be replaced.
-[Mulligan](https://imgur.com/1MlCN47.gif)
+[Mulligan](https://imgur.com/1MlCN47)
 
 * **remove** ('r'): removes a spell/minion from your board. First argument is the location (spell zone/board), second is the number of the card to be removed.
-[Remove](https://imgur.com/6IVzEYp.gif)
+[Remove](https://imgur.com/6IVzEYp)
 
 * **inspect** ('i'): brings up the detailed view for a card/deck. First argument is the side of the board ('l'/'o'), second argument is the area ('b'/'a'/'d'/'h'), third argument is the number of the card (not necessary for inspecting decks), left and right arrow keys can be used to look at associated cards.
-[Inspect](https://imgur.com/hu65UJk.gif)
+[Inspect](https://imgur.com/hu65UJk)
 
 * **surrender** ('qq'): fastest concede in the West.
 ![fastest concede in the West](https://imgur.com/69O8DfI.gif)
