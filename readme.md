@@ -57,7 +57,7 @@ The commands, with their keybindings and descriptions, are listed below:
 [Inspect](https://imgur.com/hu65UJk)
 
 * **surrender** ('qq'): fastest concede in the West.
-![fastest concede in the West](https://imgur.com/69O8DfI.gif)
+[fastest concede in the West](https://imgur.com/69O8DfI)
 
 * **close** ('ctrl + c'): closes the keybound app.
 
