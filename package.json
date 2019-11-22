@@ -1,15 +1,23 @@
 {
   "name": "keybound",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An application for Legends of Runeterra, allowing users to play via keyboard.",
   "main": "keytracker.js",
+  "bin": "keytracker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node keytracker.js"
   },
   "author": "David Barringer",
   "license": "ISC",
   "dependencies": {
+    "active-win": "^6.0.0",
     "axios": "^0.19.0",
+    "electron": "^7.1.1",
+    "iohook": "^0.6.1",
+    "jsonfile": "^5.0.0",
     "robotjs": "^0.5.1"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.6"
   }
 }

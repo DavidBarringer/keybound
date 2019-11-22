@@ -1,5 +1,6 @@
 {
   "01IO012": {
+    "choices": 2,
     "targets": [
       {
         "local": [
@@ -11,17 +12,6 @@
   },
   "01IO028": {
     "choices": 2
-  },
-  "01IO012": {
-    "choices": 2,
-    "targets":[
-      {
-        "local": [
-          "active",
-          "board"
-        ]
-      }
-    ]
   },
   "01FR039T1": {
     "targets": [
@@ -146,7 +136,7 @@
       }
     ]
   },
-  "01Io049": {
+  "01IO049": {
     "targets": [
       {
         "spell": 1
@@ -257,8 +247,7 @@
     "targets": [
       {
         "local": [
-          "active",
-          "board"
+          "active"
         ]
       }
     ]
@@ -635,7 +624,33 @@
       }
     ]
   },
+  "01PZ027": {
+    "targets": [
+      {
+        "local": [
+          "active"
+        ],
+        "opponent": [
+          "active"
+        ]
+      }
+    ]
+  },
   "01SI047": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
+  "01IO002": {
     "targets": [
       {
         "local": [
@@ -702,6 +717,16 @@
       }
     ]
   },
+  "01PZ026": {
+    "targets": [
+      {
+        "local": [
+          "active",
+          "board"
+        ]
+      }
+    ]
+  },
   "01DE044": {
     "targets": [
       {
@@ -747,20 +772,23 @@
       }
     ]
   },
-  "01IO012": {
-    "targets": [
-      {
-        "local": [
-          "hand"
-        ]
-      }
-    ]
-  },
   "01PZ039": {
     "targets": [
       {
         "local": [
           "hand"
+        ]
+      },
+      {
+        "local": [
+          "active",
+          "face",
+          "board"
+        ],
+        "opponent": [
+          "active",
+          "face",
+          "board"
         ]
       }
     ]
@@ -1166,12 +1194,14 @@
       {
         "opponent": [
           "active",
+          "face",
           "board"
         ]
       },
       {
         "opponent": [
           "active",
+          "face",
           "board"
         ]
       }
@@ -1244,24 +1274,27 @@
       {
         "opponent": [
           "active",
+          "face",
           "board"
         ]
       },
       {
         "opponent": [
           "active",
+          "face",
           "board"
         ]
       },
       {
         "opponent": [
           "active",
+          "face",
           "board"
         ]
       }
     ]
   },
-  "01PZ004": {
+  "01IO033": {
     "targets": [
       {
         "opponent": [
@@ -1279,5 +1312,5 @@
         ]
       }
     ]
-  },
+  }
 }
